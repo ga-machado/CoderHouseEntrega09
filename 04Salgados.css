@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #b0d8f1;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* 
+
+----------------------------------------------------------
+
+Vista Mobile
+
+----------------------------------------------------------
+
+*/
+
+@media screen and (max-width: 767px){
+
+    /* HEADER */
+
+    .header{
+        background-color: #19408f;
+        position: sticky;
+        top: 0.001px;
+        align-items: center;
+        text-align: center;
+    }
+   
+    .header__logo{
+        background-color: #19408f;
+    }    
+
+    .header__menu{
+        display: flex;
+        background-color: #19408f;
+        list-style-type: none;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        justify-content: space-around;
+    }
+
+    .header__menu-lista{
+        background-color: #19408f;
+        display: inline;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }  
+
+    a:link {
+    color: white;
+    background-color: #19408f;
+    text-decoration: none;
+    }
+    
+    a:visited {
+    color: white;
+    background-color: #19408f;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    color: hotpink;
+    background-color: #19408f;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    a:active {
+    color: white;
+    background-color: #19408f;
+    text-decoration: none;
+    }
+
+.tabela{
+    text-align: center;
+    width:50%; 
+    margin-left:25%; 
+    margin-right:25%;
+}
+
+th {
+    background-color:rgb(48, 123, 204);
+    color: white;
+  }
+
+.botao{
+    text-align: center;    
+}
+
+.botao__texto{
+    text-align: center;    
+    background-color: rgb(1, 1, 21);
+    color: azure;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.centralizar{
+    text-align: center;    
+}
+
+.linha{
+    display: inline-block;
+    text-align: center;  
+}
+
+.footer{
+    text-align: center;  
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+}
+
+
+/* 
+
+----------------------------------------------------------
+
+Vista Desktop
+
+----------------------------------------------------------
+
+*/
+
+@media screen and (min-width: 768px){
+	
+    /* HEADER */
+
+    .header{
+        background-color: #19408f;
+        position: sticky;
+        top: 0.001px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+   
+    .header__logo{
+        background-color: #19408f;
+    }    
+
+    .header__menu{
+        background-color: #19408f;
+        list-style-type: none;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .header__menu-lista{
+        background-color: #19408f;
+        display: inline;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }  
+
+    a:link {
+    color: white;
+    background-color: #19408f;
+    text-decoration: none;
+    }
+    
+    a:visited {
+    color: white;
+    background-color: #19408f;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    color: hotpink;
+    background-color: #19408f;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    a:active {
+    color: white;
+    background-color: #19408f;
+    text-decoration: none;
+    }
+
+    .tabela{
+        text-align: center;
+        width:50%; 
+        margin-left:25%; 
+        margin-right:25%;
+    }
+
+    th {
+        background-color:rgb(48, 123, 204);
+        color: white;
+    }
+
+    .botao{
+        text-align: center;    
+    }
+
+    .botao__texto{
+        text-align: center;    
+        background-color: rgb(1, 1, 21);
+        color: azure;
+        font-size: 16px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 8px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .centralizar{
+        text-align: center;    
+    }
+
+    .linha{
+        display: inline-block;
+        text-align: center;  
+    }
+
+    .footer{
+        grid-area: gfooter;
+        text-align: center;  
+        font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
